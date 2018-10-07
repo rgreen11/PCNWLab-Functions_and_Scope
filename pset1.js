@@ -150,8 +150,19 @@ The function should return the absolute value of the number
 The absolute value of a negative number is the positive version of that same number,
 and the absolute value of a positive number (or zero) is that number itself.
 ******************/
+function absolute(a){
+ if (a >= 0) {
+    return a
+ } else { 
+   return number = (a) * -1
+ }
+        
+}
 
 
+console.log(absolute(-1));
+console.log(absolute(0));
+console.log(absolute(2));
 /******************
 Create a function that counts the number of characters in your name
 
