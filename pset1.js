@@ -185,3 +185,14 @@ function countChars(str){
 
 console.log(countChars('Richard'));
 
+function countCharsComplicated(str) {
+    if (typeof str != "string") {
+    return String(str).length
+} else {
+    return str.length
+}
+}
+
+console.log(countCharsComplicated(5))
+console.log(typeof "this")
+console.log("string")
