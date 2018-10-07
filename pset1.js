@@ -151,9 +151,13 @@ The absolute value of a negative number is the positive version of that same num
 and the absolute value of a positive number (or zero) is that number itself.
 ******************/
 function absolute(a){
+
  if (a >= 0) {
+
     return a
+
  } else { 
+
    return number = (a) * -1
  }
         
@@ -174,4 +178,10 @@ return the number of characters in the string
 call function 'countChars'
 ******************/
 
+function countChars(str){
+
+ return (str.length);
+}
+
+console.log(countChars('Richard'));
 
