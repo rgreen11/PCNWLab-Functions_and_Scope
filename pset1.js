@@ -35,10 +35,16 @@ Concatenating string variables
 ******************/
 
 function myConcatenate( firstStr, secondStr, thirdStr ) {
-    
+
+     let myString = firstStr + " " + secondStr + " "  + thirdStr;
+
+    return myString;
 }
 
-myConcatenate('I', 'am', 'iron man'); // 'I am iron man'
+
+console.log(myConcatenate('I', 'am', 'iron man')); // 'I am iron man'
+
+//console.log(myConcatenate(firstStr, secondStr, thirdStr));
 
 /******************
 Subtract Function
@@ -50,8 +56,11 @@ Ensure that both of the inputs are numbers
 ******************/
 
 function subtract(a,b) {
-    
+    let minus = a - b;
+return minus;
 }
+
+console.log(subtract(3,20));
 
 /******************
 Area of A Circle
@@ -66,9 +75,14 @@ A = π * r2, where is π is Pi and r is the radius squared
 
 
 function areaOfaCircle(radius){
-    
+    let circle1 = Pi * r**2;
+
+    retrun circle1;
     
 }    
+
+console.log(areaOfaCircle(6));
+
 
 /******************
 Temperature Converter Fahrenheit to Celsius
