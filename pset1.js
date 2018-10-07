@@ -10,8 +10,13 @@ if invalid input given, return -1
 ******************/
 
 function myAge( ageNow, numYears ) {
-       
+       const ageLater = ageNow + numYears
+        
+       return ageLater;
 }
+
+console.log(myAge(28, 32))
+myAge(22, 39)
 
 
 
