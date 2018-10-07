@@ -95,7 +95,7 @@ Convert it to celsius and output "NN°F is NN°C."
 ******************/
 function fahrenheitToCelsius(f){
 
-    const celsius = (f - 32) * 5/9
+    const celsius = (f - 32) * 5/9;
 
     return celsius;
 }
@@ -111,6 +111,15 @@ Store a celsius temperature into a variable.
 
 Convert it to fahrenheit and output "NN°C is NN°F".
 ******************/
+
+function celsiusToFahrenheit(c){
+
+    const fahrenheit = (c * 9/5) + 32
+
+    return fahrenheit;
+}
+console.log(celsiusToFahrenheit(100));
+
 
 
 /******************
