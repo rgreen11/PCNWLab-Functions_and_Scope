@@ -75,10 +75,10 @@ A = π * r2, where is π is Pi and r is the radius squared
 
 
 function areaOfaCircle(radius){
-    let circle1 = Pi * r**2;
-
-    retrun circle1;
     
+    let circle1 = Math.PI * radius ** 2;
+
+    return circle1;
 }    
 
 console.log(areaOfaCircle(6));
