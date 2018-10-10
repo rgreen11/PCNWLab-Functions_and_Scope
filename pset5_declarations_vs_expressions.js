@@ -15,21 +15,27 @@
 */ 
  //function decloration
 // function findAverage(a, b, c){
-//     return (a + b + c)/3
+//      const sum (a + b + c)
+//       return sum / 3
 // };
 // console.log(findAverage(3, 2, 1))
 
 //function expression
 // let findAverage = function(a, b, c){
-//     return (a + b + c)/3
+//       const sum (a + b + c)
+//       return sum / 3
 // };
 // console.log(findAverage( 1, 2, 3));
 
- //Fat arrow
-let findAverage = (a, b, c) => {
-    return (a + b + c)/3
-};
-console.log(findAverage(2, 1, 3));
+//Fat arrow
+// let findAverage = (a, b, c) => {
+//       const sum (a + b + c)
+//       return sum / 3
+// };
+
+// short way of writing a FAT ARROW
+//   let findAverage = (a, b, c) =>  (a + b + c) / 3;
+// console.log(findAverage(2, 1, 3));
 
 /*
     PROBLEM 2:
@@ -39,6 +45,11 @@ console.log(findAverage(2, 1, 3));
         so, if a = 'one', b = 'two', c='three'
         then function will return 'one-two-three'
 */
+
+// function sikeADash(a = 'one', b = 'two', c = 'three'){
+//     return a + '-' + b +'-' + c 
+// }
+
 
 // function sikeADash(a, b, c){
 //     return `${a} - ${b} - ${c}`
@@ -63,3 +74,21 @@ console.log(findAverage(2, 1, 3));
         return a random number between 0 and 10 
         (doesn't have to be a whole number tho)
 */
+// function randomNum(){
+//     return Math.random() * 10;
+// }
+
+// console.log(randomNum());
+
+// const randomNum = function(){
+//     return Math.random() * 10;
+// }
+
+// const randomNum = () => {
+//     return Math.random() * 10;
+// }
+
+// const randomNum = () => Math.random() * 10;
+
+
+
