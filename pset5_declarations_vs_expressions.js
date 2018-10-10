@@ -13,8 +13,8 @@
         Write a function that takes THREE params: a, b, c
         return the remainder of the sum of a,b,c divided by 3
 */ 
-// function decloration
-// function findAverage (a, b, c){
+ //function decloration
+// function findAverage(a, b, c){
 //     return (a + b + c)/3
 // };
 // console.log(findAverage(3, 2, 1))
@@ -25,10 +25,11 @@
 // };
 // console.log(findAverage( 1, 2, 3));
 
-const findAverage = (a, b, c) => {
+ //Fat arrow
+let findAverage = (a, b, c) => {
     return (a + b + c)/3
 };
-console.log(findAverage(2,1,3));
+console.log(findAverage(2, 1, 3));
 
 /*
     PROBLEM 2:
@@ -38,6 +39,23 @@ console.log(findAverage(2,1,3));
         so, if a = 'one', b = 'two', c='three'
         then function will return 'one-two-three'
 */
+
+// function sikeADash(a, b, c){
+//     return `${a} - ${b} - ${c}`
+// }
+
+// console.log(sikeADash(3, 2, 1));
+
+// const sikeADash = function(a, b, c){
+//     return `${a} - ${b} -${c}` 
+// }
+// console.log(sikeADash(3, 2, 1));
+
+// const sikeADash = (a, b, c) =>{
+//     return `${a} - ${b}- ${c}`
+// }
+
+// console.log(sikeADash(1, 2, 3));
 
 /*
     PROBLEM 3:
