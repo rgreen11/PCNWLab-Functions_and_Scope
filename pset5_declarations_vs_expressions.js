@@ -13,7 +13,22 @@
         Write a function that takes THREE params: a, b, c
         return the remainder of the sum of a,b,c divided by 3
 */ 
+// function decloration
+// function findAverage (a, b, c){
+//     return (a + b + c)/3
+// };
+// console.log(findAverage(3, 2, 1))
 
+//function expression
+// let findAverage = function(a, b, c){
+//     return (a + b + c)/3
+// };
+// console.log(findAverage( 1, 2, 3));
+
+const findAverage = (a, b, c) => {
+    return (a + b + c)/3
+};
+console.log(findAverage(2,1,3));
 
 /*
     PROBLEM 2:
